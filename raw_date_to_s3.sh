@@ -4,7 +4,7 @@
 # sh ./raw_date_to_s3.sh
 
 # ** REPLACE ME! **
-s3_bucket="<your_s3_bucket_name>"
+s3_bucket="ageit"
 
 pushd raw_tickit_data/
 unzip tickit_data.zip
