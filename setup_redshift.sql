@@ -20,7 +20,7 @@ create database demo with owner admin;
 create external schema tickit_external
 from data catalog
 database 'tickit_dbt'
-iam_role 'arn:aws:iam::<your_aws_acccount_id>:role/ClusterPermissionsRole'
+iam_role 'arn:aws:iam::797684078119:role/ClusterPermissionsRole'
 create external database if not exists;
 
 create schema tickit_dbt;
@@ -28,7 +28,7 @@ create schema tickit_dbt;
 drop schema public;
 
 -- create dbt user and group
-create user dbt with password 'CHANGE_ME!'
+create user dbt with password 'Madama106!'
     nocreatedb nocreateuser syslog access restricted
     connection limit 10;
 
