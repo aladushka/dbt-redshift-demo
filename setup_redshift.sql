@@ -28,7 +28,7 @@ create schema tickit_dbt;
 drop schema public;
 
 -- create dbt user and group
-create user dbt with password 'Madama106!'
+create user dbt with password 'ji!v0b40W40S'
     nocreatedb nocreateuser syslog access restricted
     connection limit 10;
 
